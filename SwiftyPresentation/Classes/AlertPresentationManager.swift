@@ -15,8 +15,8 @@ public enum AnimationDirection {
 
 public class AlertPresentationManager: NSObject {
     
-    var presentationDirection = AnimationDirection.top
-    var dismissDirection = AnimationDirection.bottom
+    public var presentationDirection = AnimationDirection.top
+    public var dismissDirection = AnimationDirection.bottom
 }
 
 extension AlertPresentationManager: UIViewControllerTransitioningDelegate {
