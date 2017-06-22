@@ -10,12 +10,12 @@
 		3748676D1EFC314B00AF875C /* SwiftyPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374867631EFC314B00AF875C /* SwiftyPresentation.framework */; };
 		374867721EFC314B00AF875C /* SwiftyPresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374867711EFC314B00AF875C /* SwiftyPresentationTests.swift */; };
 		374867741EFC314B00AF875C /* SwiftyPresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 374867661EFC314B00AF875C /* SwiftyPresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		374867861EFC316D00AF875C /* AlertPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3748677F1EFC316D00AF875C /* AlertPresentationAnimator.swift */; };
-		374867871EFC316D00AF875C /* AlertPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374867801EFC316D00AF875C /* AlertPresentationController.swift */; };
-		374867881EFC316D00AF875C /* AlertPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374867811EFC316D00AF875C /* AlertPresentationManager.swift */; };
-		374867891EFC316D00AF875C /* SlideInPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374867831EFC316D00AF875C /* SlideInPresentationAnimator.swift */; };
-		3748678A1EFC316D00AF875C /* SlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374867841EFC316D00AF875C /* SlideInPresentationController.swift */; };
-		3748678B1EFC316D00AF875C /* SlideInPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374867851EFC316D00AF875C /* SlideInPresentationManager.swift */; };
+		37B96EBB1EFC3F81000761C9 /* AlertPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B96EB51EFC3F81000761C9 /* AlertPresentationAnimator.swift */; };
+		37B96EBC1EFC3F81000761C9 /* AlertPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B96EB61EFC3F81000761C9 /* AlertPresentationController.swift */; };
+		37B96EBD1EFC3F81000761C9 /* AlertPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B96EB71EFC3F81000761C9 /* AlertPresentationManager.swift */; };
+		37B96EBE1EFC3F81000761C9 /* SlideInPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B96EB81EFC3F81000761C9 /* SlideInPresentationAnimator.swift */; };
+		37B96EBF1EFC3F81000761C9 /* SlideInPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B96EB91EFC3F81000761C9 /* SlideInPresentationController.swift */; };
+		37B96EC01EFC3F81000761C9 /* SlideInPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B96EBA1EFC3F81000761C9 /* SlideInPresentationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +35,12 @@
 		3748676C1EFC314B00AF875C /* SwiftyPresentationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyPresentationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374867711EFC314B00AF875C /* SwiftyPresentationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyPresentationTests.swift; sourceTree = "<group>"; };
 		374867731EFC314B00AF875C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3748677F1EFC316D00AF875C /* AlertPresentationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresentationAnimator.swift; sourceTree = "<group>"; };
-		374867801EFC316D00AF875C /* AlertPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresentationController.swift; sourceTree = "<group>"; };
-		374867811EFC316D00AF875C /* AlertPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresentationManager.swift; sourceTree = "<group>"; };
-		374867831EFC316D00AF875C /* SlideInPresentationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationAnimator.swift; sourceTree = "<group>"; };
-		374867841EFC316D00AF875C /* SlideInPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationController.swift; sourceTree = "<group>"; };
-		374867851EFC316D00AF875C /* SlideInPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationManager.swift; sourceTree = "<group>"; };
+		37B96EB51EFC3F81000761C9 /* AlertPresentationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresentationAnimator.swift; sourceTree = "<group>"; };
+		37B96EB61EFC3F81000761C9 /* AlertPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresentationController.swift; sourceTree = "<group>"; };
+		37B96EB71EFC3F81000761C9 /* AlertPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresentationManager.swift; sourceTree = "<group>"; };
+		37B96EB81EFC3F81000761C9 /* SlideInPresentationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationAnimator.swift; sourceTree = "<group>"; };
+		37B96EB91EFC3F81000761C9 /* SlideInPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationController.swift; sourceTree = "<group>"; };
+		37B96EBA1EFC3F81000761C9 /* SlideInPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInPresentationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		374867651EFC314B00AF875C /* SwiftyPresentation */ = {
 			isa = PBXGroup;
 			children = (
-				3748677D1EFC316D00AF875C /* Classes */,
+				37B96EB41EFC3F81000761C9 /* Classes */,
 				374867661EFC314B00AF875C /* SwiftyPresentation.h */,
 				374867671EFC314B00AF875C /* Info.plist */,
 			);
@@ -99,33 +99,17 @@
 			path = SwiftyPresentationTests;
 			sourceTree = "<group>";
 		};
-		3748677D1EFC316D00AF875C /* Classes */ = {
+		37B96EB41EFC3F81000761C9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3748677E1EFC316D00AF875C /* AlertPresentation */,
-				374867821EFC316D00AF875C /* SlideInPresentation */,
+				37B96EB51EFC3F81000761C9 /* AlertPresentationAnimator.swift */,
+				37B96EB61EFC3F81000761C9 /* AlertPresentationController.swift */,
+				37B96EB71EFC3F81000761C9 /* AlertPresentationManager.swift */,
+				37B96EB81EFC3F81000761C9 /* SlideInPresentationAnimator.swift */,
+				37B96EB91EFC3F81000761C9 /* SlideInPresentationController.swift */,
+				37B96EBA1EFC3F81000761C9 /* SlideInPresentationManager.swift */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		3748677E1EFC316D00AF875C /* AlertPresentation */ = {
-			isa = PBXGroup;
-			children = (
-				3748677F1EFC316D00AF875C /* AlertPresentationAnimator.swift */,
-				374867801EFC316D00AF875C /* AlertPresentationController.swift */,
-				374867811EFC316D00AF875C /* AlertPresentationManager.swift */,
-			);
-			path = AlertPresentation;
-			sourceTree = "<group>";
-		};
-		374867821EFC316D00AF875C /* SlideInPresentation */ = {
-			isa = PBXGroup;
-			children = (
-				374867831EFC316D00AF875C /* SlideInPresentationAnimator.swift */,
-				374867841EFC316D00AF875C /* SlideInPresentationController.swift */,
-				374867851EFC316D00AF875C /* SlideInPresentationManager.swift */,
-			);
-			path = SlideInPresentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,12 +222,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374867881EFC316D00AF875C /* AlertPresentationManager.swift in Sources */,
-				374867891EFC316D00AF875C /* SlideInPresentationAnimator.swift in Sources */,
-				374867871EFC316D00AF875C /* AlertPresentationController.swift in Sources */,
-				3748678A1EFC316D00AF875C /* SlideInPresentationController.swift in Sources */,
-				3748678B1EFC316D00AF875C /* SlideInPresentationManager.swift in Sources */,
-				374867861EFC316D00AF875C /* AlertPresentationAnimator.swift in Sources */,
+				37B96EBD1EFC3F81000761C9 /* AlertPresentationManager.swift in Sources */,
+				37B96EBE1EFC3F81000761C9 /* SlideInPresentationAnimator.swift in Sources */,
+				37B96EBC1EFC3F81000761C9 /* AlertPresentationController.swift in Sources */,
+				37B96EBF1EFC3F81000761C9 /* SlideInPresentationController.swift in Sources */,
+				37B96EC01EFC3F81000761C9 /* SlideInPresentationManager.swift in Sources */,
+				37B96EBB1EFC3F81000761C9 /* AlertPresentationAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

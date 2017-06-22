@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'SwiftyPresentation'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary          = 'Some presentations for modal controllers'
 
     s.description      = <<-DESC
@@ -13,7 +13,6 @@ Present controllers like slides or alerts.
     s.source           = { :git => 'https://github.com/NicolasRenaud/SwiftyPresentation.git', :tag => s.version.to_s }
  
     s.ios.deployment_target = '9.0'
-    s.source_files = 'SwiftyPresentation/Classes/AlertPresentation/*'
-    s.source_files = 'SwiftyPresentation/Classes/SlideInPresentation/*'
+    s.source_files = 'SwiftyPresentation/Classes/*.swift'
 
 end
