@@ -17,7 +17,7 @@ public enum PresentationDirection {
 
 public class SlideInPresentationManager: NSObject {
     
-    var direction = PresentationDirection.left
+    public var direction = PresentationDirection.left
 }
 
 extension SlideInPresentationManager: UIViewControllerTransitioningDelegate {
