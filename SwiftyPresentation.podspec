@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'SwiftyPresentation'
-    s.version          = '1.0.2'
+    s.version          = '1.0.4'
     s.summary          = 'Some presentations for modal controllers'
 
     s.description      = <<-DESC

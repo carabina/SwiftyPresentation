@@ -8,12 +8,12 @@
 
 import UIKit
 
-enum AnimationDirection {
+public enum AnimationDirection {
     case top
     case bottom
 }
 
-class AlertPresentationManager: NSObject {
+public class AlertPresentationManager: NSObject {
     
     var presentationDirection = AnimationDirection.top
     var dismissDirection = AnimationDirection.bottom
@@ -21,7 +21,7 @@ class AlertPresentationManager: NSObject {
 
 extension AlertPresentationManager: UIViewControllerTransitioningDelegate {
     
-    func presentationController(forPresented presented: UIViewController,
+    public func presentationController(forPresented presented: UIViewController,
                                 presenting: UIViewController?,
                                 source: UIViewController) -> UIPresentationController? {
         let presentationController = AlertPresentationController(presentedViewController: presented,
@@ -31,7 +31,7 @@ extension AlertPresentationManager: UIViewControllerTransitioningDelegate {
         return presentationController
     }
     
-    func animationController(forPresented presented: UIViewController,
+    public func animationController(forPresented presented: UIViewController,
                              presenting: UIViewController,
                              source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return AlertPresentationAnimator(isPresenting: true,
@@ -39,7 +39,7 @@ extension AlertPresentationManager: UIViewControllerTransitioningDelegate {
                                          dismissDirection: self.dismissDirection)
     }
     
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    public func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return AlertPresentationAnimator(isPresenting: false,
                                          presentationDirection: self.presentationDirection,
                                          dismissDirection: self.dismissDirection)
